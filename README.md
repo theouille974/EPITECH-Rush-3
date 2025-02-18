@@ -1,39 +1,88 @@
 # EPITECH-Rush-3
-{ EPITECH } - B-PDG-300_rush3 - Note : 24.6
 
-Administrative details (2 / 2) :
+**{ EPITECH } - B-PDG-300_rush3 - Note : 24.6**
 
-Bad practices (0 / 0) :
--> `run` qui appelle `run` quand on bascule de partie graphique
+## 📝 Administrative Details (2 / 2)
 
-Namespace (0.5 / 0.5) :
+## 🚫 Bad Practices (0 / 0)
+- `run` calls `run` when switching from graphical mode
 
-Display interface (1.5 / 1.5) :
+## 🏷️ Namespace (0.5 / 0.5)
 
-Module interface (1.5 / 1.5) :
+## 🖥️ Display Interface (1.5 / 1.5)
 
-Reflection (2 / 2.5) :
--> Liste STL de moduels graphiques non présente, pas loin de la perfection
-Configuration (2 / 2) :
--> Parfait, rien à dire
+## 🧩 Module Interface (1.5 / 1.5)
 
-Hostname and username module (1 / 1) :
+## 🔍 Reflection (2 / 2.5)
+- Missing STL list for graphical modules, close to perfection
 
-OS name and kernel version module (1 / 1) :
+## ⚙️ Configuration (2 / 2)
+- Perfect, nothing to say
 
-Date and time module (1.5 / 1.5) :
+## 📌 Implemented Modules
+- **Hostname & Username Module** (1 / 1)
+- **OS Name & Kernel Version Module** (1 / 1)
+- **Date & Time Module** (1.5 / 1.5)
+- **nCurses Display** (1.5 / 1.5)
+- **CPU Module** (1.5 / 1.5)
+- **RAM Module** (1.5 / 1.5)
+- **SFML Display** (2 / 2)
 
-nCurses display (1.5 / 1.5) :
+## 🎁 Bonus (5 / 10)
+- ✅ Scrolling management for modules (+3.5)
+- ✅ Fully adaptable architecture (+1.5)
 
-CPU module (1.5 / 1.5) :
+## 🐸 Kreeeeeeog! (0.1 / 0.1)
+- Very good scream, even when high
 
-RAM module (1.5 / 1.5) :
+---
 
-SFML display (2 / 2) :
+# 🚀 MyGKrellm
 
-Bonus (5 / 10) :
--> Gestion du scrolling pour les modules, on peut réordonner, enlever, ajouter, comme on le souhaite +3.5
--> Archi vraiment inpec, c'est vraiment bon ! +1.5
+## 🔍 Overview
+**MyGKrellm** is a system monitor inspired by **GKrellM**, developed in **C++** without `using namespace`, `*alloc`, `free`, `*printf`, `open`, or `fopen`. It provides real-time monitoring of system resources in both **graphical (SFML)** and **text-based (nCurses)** modes.
 
-Kreeeeeeog ! (0.1 / 0.1) :
--> Très bon cri même en étant défoncé
+## ✨ Features
+- **Modular Architecture**: Dynamically add, remove, and reorder modules.
+- **Two Display Modes**:
+  - **nCurses Mode**: Displays system info in the terminal.
+  - **SFML Mode**: Provides a graphical system monitoring experience.
+- **Configurability**:
+  - **Beginner**: Configure modules & display modes at **compile time**.
+  - **Intermediate**: Configure settings via **command-line arguments**.
+  - **Advanced**: Switch modules and displays dynamically **at runtime**.
+
+## 🏗️ Core Functionality
+### **Step 1: Monitor Core**
+- Manages **modules** & **display modes** dynamically via interfaces:
+  - `Krell::IModule` (Module behavior)
+  - `Krell::IDisplay` (Display mode behavior)
+
+### **Step 2: Modules & nCurses**
+- Implements the following system info modules:
+  - ✅ Hostname & Username
+  - ✅ OS Name & Kernel Version
+  - ✅ Date & Time
+
+### **Step 3: More Modules & SFML**
+- Additional modules:
+  - ✅ **CPU** (Model, Frequency, Cores, Usage)
+  - ✅ **RAM** (Usage Statistics)
+- Implements **SFML graphical display**
+
+## 🎉 Bonus Features
+- **Extra Modules**: Network Load, Battery, More system stats.
+- **Additional Graphical Displays**: Graphs, GTK, SDL2, Qt5, Unreal Engine 5.3.
+
+## 🔧 Build & Execution
+- **Build System**: `Makefile` (`all`, `clean`, `fclean`, `re` rules).
+- **Executable**: `MyGKrellm`
+
+## 🎯 Goals
+- ✅ Maintain a **clean & efficient modular design**.
+- ✅ Ensure **smooth user experience** across both display modes.
+- ✅ Provide **flexibility & extensibility** with dynamic module handling.
+
+---
+
+### 📌 Stay tuned for updates & enhancements! 🚀
