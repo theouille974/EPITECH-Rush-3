@@ -82,7 +82,3 @@
 - ✅ Maintain a **clean & efficient modular design**.
 - ✅ Ensure **smooth user experience** across both display modes.
 - ✅ Provide **flexibility & extensibility** with dynamic module handling.
-
----
-
-### 📌 Stay tuned for updates & enhancements! 🚀
