@@ -1,2 +1,2 @@
 # EPITECH-Rush-3
-B-PDG-300_rush3
+{ EPITECH } - B-PDG-300_rush3
